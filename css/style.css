@@ -1,0 +1,18 @@
+.image-width {
+  width: 75%;
+  height: auto;
+}
+
+#title {
+  font-family: monospace;
+  background-color: silver;
+  padding: 20px 0px 20px 0px;
+}
+
+#img-div {
+  padding: 20px 0px 20px 0px;
+}
+
+#main {
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<html>
+  <p id="title"><h1>Customer Feedback Form</h1></p>
+  <p id="description">Customer Feedback Form</p>
+  <form id="survey-form">
+    <label for="name-label"> Customer Name : </label>
+    <input type="text" id="name" required placeholder="Your name: ex : John Smith" />
+    <br />
+    <label for="email-label"> Customer email : </label>
+    <input type="email" id="email" required placeholder="email: ex : abc@gmail.com" />
+    <br />
+    <label for="number-label"> Customer number : </label>
+    <input type="number" size="10" id="number" placeholder="Mobile: ex : 1010101010" />
+    <br>
+    <label for="feature">Choose your favorite feature:</label>
+
+    <select name="feature" id="dropdown" >
+    <option value="Challenges">Challenges</option>
+    <option value="Projects">Projects</option>
+    <option value="OSS">Open Source</option>
+    <option value="Community">Community</option>
+    </select>
+
+    <p>Please select your role:</p>
+    <div id="radio">
+        <input type="radio" id="student" name="role" value="male">
+        <label for="male">Student</label><br>
+        <input type="radio" id="female" name="role" value="female">
+        <label for="female">Front End Developer</label><br>
+        <input type="radio" id="other" name="role" value="other">
+        <label for="other">Back End Developer</label>
+    </div>
+
+    <p>Please select the areas you need to improve:</p>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> UI Design</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> System Design</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> Backend Design</label><br>
+
+    <label for="comments">Additional Comments : </label><textarea></textarea>
+    <input type="button" id="submit">
+  </form>
+  <body></body>
+</html>

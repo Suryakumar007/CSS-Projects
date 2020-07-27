@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  background-color: #838383;
+  font-family: monospace;
+  font-size: x-large;
+}
+
+#title {
+  font-size: larger;
+}
+
+#survey-form {
+  text-align: center;
+  background-color: #fccbcb;
+  line-height: 30px;
+}
+
+#radio {
+  text-align: center;
+}

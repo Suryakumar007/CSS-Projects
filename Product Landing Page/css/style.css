@@ -1,0 +1,31 @@
+.nav-link {
+  font-family: monospace;
+}
+.navclass {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#header-img {
+  float: left;
+}
+
+.nav-link {
+  font-size: x-large;
+  padding: 150px 10px 10px 10px;
+}
+.navclass {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+#Features,
+#Demo {
+  text-align: center;
+}
+@media (max-height: 800px) {
+  p {
+    font-size: 10px;
+  }
+}
